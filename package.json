@@ -1,0 +1,23 @@
+{
+  "name": "string-tablify",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "yarn test",
+    "test": "yarn run build && node lib/test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "typeof": "^1.0.0"
+  },
+  "files": [
+    "lib/index.d.ts",
+    "lib/index.js"
+  ],
+  "repository": "jrop/string-tablify"
+}

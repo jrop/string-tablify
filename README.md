@@ -1,5 +1,7 @@
 # string-tablify
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jrop/string-tablify.svg)](https://greenkeeper.io/)
+
 Extract object-keys/strings to a global string-table to compact objects
 
 ## Installation
